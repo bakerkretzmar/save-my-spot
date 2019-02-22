@@ -1,29 +1,21 @@
-# save-my-spot
+Save my spot!
+=============
 
-## Project setup
-```
-npm install
-```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f4dce046-18fe-4db0-b89b-68b7b2d7d5e8/deploy-status)](https://app.netlify.com/sites/awesome-hermann-207806/deploys)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+A web app to download your Spotify playlists as Excel spreadsheets. Just in case.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Project setup based on [`adamwathan/vue-cli3-tailwind-purge`](https://github.com/adamwathan/vue-cli3-tailwind-purge).
 
-### Run your tests
-```
-npm run test
-```
+Developing
+-----
 
-### Lints and fixes files
-```
-npm run lint
-```
+Setup: `npm install`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Compile and hot-reload: `npm run serve`
+
+Compile and minify for production: `npm run build`
+
+Run tests: `npm run test`
+
+Lint and fix files: `npm run lint`
