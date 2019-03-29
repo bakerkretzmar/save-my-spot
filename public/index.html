@@ -10,8 +10,25 @@
         <link rel="icon" type="image/png" href="<%= BASE_URL %>arrow.png">
     </head>
     <body class="min-h-screen bg-black-dark font-sans text-grey-lightest antialiased">
+
         <noscript><strong>Sorry, Save my spot doesn’t work properly without JavaScript. Please enable it to continue.</strong></noscript>
 
         <div id="app"></div>
+
+        <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+        <script>
+            (function(f, a, t, h, o, m){
+                a[h]=a[h]||function(){
+                    (a[h].q=a[h].q||[]).push(arguments)
+                };
+                o=f.createElement('script'),
+                m=f.getElementsByTagName('script')[0];
+                o.async=1; o.src=t; o.id='fathom-script';
+                m.parentNode.insertBefore(o,m)
+            })(document, window, '//analytics.savemyspot.ca/tracker.js', 'fathom');
+            fathom('set', 'siteId', 'YIAHX');
+            fathom('trackPageview');
+        </script>
+
     </body>
 </html>
