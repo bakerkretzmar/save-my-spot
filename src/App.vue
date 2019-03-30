@@ -323,13 +323,7 @@ export default {
 @tailwind components;
 @tailwind utilities;
 
-.expand-enter-active,
-.expand-leave-active {
-    transition-property: opacity, height;
 }
-.expand-enter,
-.expand-leave-to {
-    opacity: .6;
 }
 
 .loading {

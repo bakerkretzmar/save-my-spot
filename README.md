@@ -7,8 +7,8 @@ A web app to download your Spotify playlists as Excel spreadsheets. Just in case
 
 Project structure based on [`adamwathan/vue-cli3-tailwind-purge`](https://github.com/adamwathan/vue-cli3-tailwind-purge).
 
-Develop
--------
+Developing
+----------
 
 Setup: `npm install`
 

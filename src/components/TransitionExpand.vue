@@ -68,22 +68,24 @@ export default {
 
 <style scoped>
 * {
-  will-change: height;
-  transform: translateZ(0);
-  backface-visibility: hidden;
-  perspective: 1000px;
+    will-change: height;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
 }
 </style>
 
 <style>
 .expand-enter-active,
 .expand-leave-active {
-  transition: height .25s;
-  overflow: hidden;
+    transition: height .25s;
+    transition-property: opacity, height;
+    overflow: hidden;
 }
 
 .expand-enter,
 .expand-leave-to {
-  height: 0;
+    height: 0;
+    opacity: .6;
 }
 </style>
