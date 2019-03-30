@@ -5,13 +5,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-        <title>Save my spot!</title>
+        <title>Save my Spot!</title>
 
-        <link rel="icon" type="image/png" href="<%= BASE_URL %>arrow.png">
+        <link rel="icon" type="image/png" href="<%= BASE_URL %>assets/img/tidal-icon.png">
+
+        <meta name="description" content="Download your Spotify playlists as spreadsheets. Just in case.">
     </head>
-    <body class="min-h-screen bg-black-dark font-sans text-grey-lightest antialiased">
-
-        <noscript><strong>Sorry, Save my spot doesn’t work properly without JavaScript. Please enable it to continue.</strong></noscript>
+    <body>
+        <noscript>
+            <h2 class="text-center text-2xl font-sans"><strong>Sorry, Save my spot doesn’t work without JavaScript. Please enable it to continue.</strong></h2>
+        </noscript>
 
         <div id="app"></div>
 
@@ -29,6 +32,5 @@
             fathom('set', 'siteId', 'AYGJN');
             fathom('trackPageview');
         </script>
-
     </body>
 </html>
