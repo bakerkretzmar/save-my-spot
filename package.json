@@ -1,24 +1,32 @@
 {
     "name": "save-my-spot",
+    "description": "Download your Spotify playlists as Excel spreadsheets. Just in case.",
+    "homepage": "https://github.com/bakerkretzmar/save-my-spot",
     "version": "0.1.0",
     "private": true,
+    "license": "MIT",
+    "author": {
+        "name": "Jacob Baker-Kretzmar",
+        "email": "jacobtbk@gmail.com",
+        "url": "https://github.com.bakerkretzmar"
+    },
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint"
     },
     "devDependencies": {
-        "@fullhuman/postcss-purgecss": "^1.1.0",
-        "@vue/cli-plugin-babel": "^3.5.3",
-        "@vue/cli-plugin-eslint": "^3.5.1",
-        "@vue/cli-service": "^3.5.3",
+        "@fullhuman/postcss-purgecss": "^1.3.0",
+        "@vue/cli-plugin-babel": "^3.12.1",
+        "@vue/cli-plugin-eslint": "^3.12.1",
+        "@vue/cli-service": "^3.12.1",
         "axios": "^0.18.1",
-        "babel-eslint": "^10.0.1",
-        "eslint": "^5.15.3",
-        "eslint-plugin-vue": "^5.0.0",
-        "tailwindcss": "^1.0.0-beta.4",
+        "babel-eslint": "^10.0.3",
+        "eslint": "^5.16.0",
+        "eslint-plugin-vue": "^5.2.3",
+        "tailwindcss": "^1.1.3",
         "vue": "^2.6.10",
         "vue-template-compiler": "^2.6.10",
-        "zipcelx": "^1.6.0"
+        "zipcelx": "^1.6.2"
     }
 }
